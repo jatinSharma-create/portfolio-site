@@ -1,5 +1,5 @@
 export const SITE = {
-  url: "http://localhost:3000", // TODO: after deploy, change to your Vercel URL e.g. "https://portfolio-site-jatin.vercel.app"
+  url: "https://portfolio-site-jatin-sharmas-projects-c2e68e26.vercel.app/", // TODO: after deploy, change to your Vercel URL e.g. "https://portfolio-site-jatin.vercel.app"
   name: "Jatin Sharma",
   github: "https://github.com/jatinSharma-create",
   linkedin: "https://www.linkedin.com/in/jatin-sharma-0a34512a2/",

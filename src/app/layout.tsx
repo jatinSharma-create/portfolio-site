@@ -5,10 +5,9 @@ import Container from "@/components/Container";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE } from "@/lib/site";
-// import { Analytics } from "@vercel/analytics/react"; // enable after deploying if you want
+import { Analytics } from "@vercel/analytics/react"; // enable after deploying if you want
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: "Jatin Kumar Sharma — Portfolio",
@@ -39,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
         </Container>
-        {/* <Analytics /> */}
+        { <Analytics /> }
       </body>
     </html>
   );

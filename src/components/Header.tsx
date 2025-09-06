@@ -26,6 +26,13 @@ export default function Header() {
           <SocialLinks />
         </div>
       </nav>
+
+      <nav className="flex items-center gap-4">
+        <Link href="/" className="hover:underline">Home</Link>
+        <Link href="/about" className="hover:underline">About</Link>
+        <a href="/resume.pdf" className="hover:underline" download>Resume</a>
+      </nav>
+
     </header>
   );
 }
